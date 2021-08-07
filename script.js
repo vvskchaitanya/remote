@@ -10,3 +10,7 @@ firebase.auth().signInWithEmailAndPassword("vvskchaitanya@gmail.com", "vvskchait
 var defaultDatabase = firebase.database();
 var actionRef = firebase.database().ref("action");
 actionRef.set("o");
+
+action=function(c){
+    actionRef.set(c);
+}

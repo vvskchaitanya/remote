@@ -11,6 +11,6 @@ var defaultDatabase = firebase.database();
 var actionRef = firebase.database().ref("action");
 actionRef.set("o");
 
-action=function(c){
+var action=function(c){
     actionRef.set(c);
 }

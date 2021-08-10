@@ -4,6 +4,7 @@
   <title>VVSK Remote Control</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="remote-control-icon.png.png">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -27,20 +28,20 @@
         </div>
         <div class="row ml-0 mt-5">
             <div class="col-12">
-                <table>
+                <table class="d-inline-block">
                     <tr>
                         <td></td>
-                        <td onmousedown="action('f')" onmouseup="action('o')"><i class="material-icons btn-action">north</i></td>
+                        <td action="f"><i class="material-icons btn-action">north</i></td>
                         <td></td>
                     </tr>
                     <tr>
-                        <td onmousedown="action('l')" onmouseup="action('o')"><i class="material-icons btn-action">west</i></td>
+                        <td action="l"><i class="material-icons btn-action">west</i></td>
                         <td></td>
-                        <td onmousedown="action('r')" onmouseup="action('o')"><i class="material-icons btn-action">east</i></td>
+                        <td action="r"><i class="material-icons btn-action">east</i></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td onmousedown="action('b')" onmouseup="action('o')"><i class="material-icons btn-action">south</i></td>
+                        <td action="b"><i class="material-icons btn-action">south</i></td>
                         <td></td>
                     </tr>
                 </table>

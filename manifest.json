@@ -1,0 +1,21 @@
+{
+    "name": "VVSK RC",
+    "short_name": "VVSK RC",
+    "start_url": "./",
+    "theme_color": "#f44336",
+    "background_color": "#f44336",
+    "display": "standalone",
+    "description": "VVSK Remote Control",
+    "icons": [
+        {
+            "src": "remote-control-icon.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+             "src": "remote-control-icon.png",
+             "sizes": "32x32",
+             "type": "image/png"
+         }
+    ]
+ }

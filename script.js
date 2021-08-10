@@ -26,7 +26,7 @@ eventTypes.forEach(type => $(document).on(type, event => checkEvent(event)));
 checkEvent = function (event) {
   console.log(event);
   if(window.isMobile && (event.type=="mouseup" || event.type=="mousedown"))return;
-  if(event.type=="mousedown" || event.type=="touchend"){
+  if(event.type=="mouseup" || event.type=="touchend"){
     actionRef.set("o");
     return;
   }
